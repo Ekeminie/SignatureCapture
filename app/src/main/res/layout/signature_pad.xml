@@ -7,24 +7,26 @@
     android:background="@color/colorWhite"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
+
     <Button
         android:id="@+id/buttonCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/rounded_btn_bg"
         android:text="@string/cancel"
         android:textColor="@drawable/button_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonClear"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/buttonClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/rounded_btn_bg"
         android:text="@string/clear"
         android:textColor="@drawable/button_text_color"
         android:visibility="visible"
@@ -37,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/rounded_btn_bg"
         android:text="@string/ok"
         android:textColor="@drawable/button_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
